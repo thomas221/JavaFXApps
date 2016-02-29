@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="todoListDB.h2" uuid="644860a2-a0a7-426c-91b0-343aba49b2de">
+      <secret-storage>master_key</secret-storage>
+      <schema-pattern>TODOLIST.H2.PUBLIC</schema-pattern>
+      <default-schemas>TODOLIST.H2.PUBLIC</default-schemas>
+    </data-source>
+    <data-source name="H2 - todoapp" uuid="dedeff71-a005-4a11-a417-f8a8524897e2">
+      <secret-storage>master_key</secret-storage>
+      <schema-pattern>TODOAPP.PUBLIC</schema-pattern>
+      <default-schemas>TODOAPP.PUBLIC</default-schemas>
+    </data-source>
+  </component>
+</project>

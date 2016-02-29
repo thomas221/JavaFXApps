@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="todoListDB.h2" uuid="644860a2-a0a7-426c-91b0-343aba49b2de">
+    <database-info product="H2" version="1.3.176 (2014-04-05)" jdbc-version="4.0" driver-name="H2 JDBC Driver" driver-version="1.3.176 (2014-04-05)">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/>
+    <schema name="PUBLIC" catalog="TODOLIST.H2"/>
+    <table name="TODOAPP" schema="PUBLIC" catalog="TODOLIST.H2" type="TABLE">
+      <column name="ID" sqlType="INTEGER" precision="10" scale="0" nullable="false" jdbcType="4" def="KE5FWFQgVkFMVUUgRk9SIFBVQkxJQy5TWVNURU1fU0VRVUVOQ0VfOTg5NEY1RjBfMEQyQV80NkEyXzgwQkJfMDJERjI2RTVEQTQ1KQ==" autoIncrement="true"/>
+      <column name="DESCRIPTION" sqlType="VARCHAR" precision="9000" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="CONSTRAINT_E" columns="ID"/>
+    </table>
+  </data-source>
+  <data-source name="H2 - todoapp" uuid="dedeff71-a005-4a11-a417-f8a8524897e2">
+    <database-info product="H2" version="1.3.176 (2014-04-05)" jdbc-version="4.0" driver-name="H2 JDBC Driver" driver-version="1.3.176 (2014-04-05)">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/>
+    <schema name="PUBLIC" catalog="TODOAPP"/>
+    <table name="TODOAPP" schema="PUBLIC" catalog="TODOAPP" type="TABLE">
+      <column name="ID" sqlType="INTEGER" precision="10" scale="0" nullable="false" jdbcType="4" def="KE5FWFQgVkFMVUUgRk9SIFBVQkxJQy5TWVNURU1fU0VRVUVOQ0VfQjlCNjdDNURfRjhBRF80QkI0XzkzNDFfNzBDQkIxRDBDRTYzKQ==" autoIncrement="true"/>
+      <column name="DESCRIPTION" sqlType="VARCHAR" precision="9000" scale="0" nullable="true" jdbcType="12"/>
+    </table>
+  </data-source>
+</component>

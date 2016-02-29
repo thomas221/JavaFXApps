@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="158218097">
+    <data-source source="LOCAL" name="todoListDB.h2" uuid="644860a2-a0a7-426c-91b0-343aba49b2de">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:$PROJECT_DIR$/Database\todoList.h2</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="H2 - todoapp" uuid="dedeff71-a005-4a11-a417-f8a8524897e2">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:$PROJECT_DIR$/Database/todoapp</jdbc-url>
+    </data-source>
+  </component>
+</project>

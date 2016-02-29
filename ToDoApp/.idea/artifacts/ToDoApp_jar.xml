@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ToDoApp:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ToDoApp_jar</output-path>
+    <root id="archive" name="ToDoApp.jar">
+      <element id="module-output" name="ToDoApp" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Databases/h2-1.4.191.jar" path-in-jar="/" />
+      <element id="dir-copy" path="$PROJECT_DIR$/Database" />
+    </root>
+  </artifact>
+</component>
